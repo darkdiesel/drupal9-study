@@ -1,0 +1,16 @@
+# Ignore vendor dependencies and scripts
+/vendor
+/composer.phar
+/composer
+/robo.phar
+/robo
+/drush.phar
+/drush
+/drupal.phar
+/drupal
+
+# php strom files
+.idea
+
+# vagrant files
+.vagrant
