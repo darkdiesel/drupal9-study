@@ -9,8 +9,13 @@
 /drupal.phar
 /drupal
 
+# Ignore private folder
+/private/*
+
 # php strom files
 .idea
 
 # vagrant files
 .vagrant
+
+!/**/.gitkeep
