@@ -28,11 +28,18 @@ php drush cr
 
 ## Drush useful commands
 
-Cache rebuild
-```drush cr```
+- Cache rebuild:
 
-Install module
-```drush en module_name```
+  ```drush cr```
 
-Uninstall module
-```drush pmu module_name```
+- Install module:
+
+  ```drush en module_name```
+
+- Uninstall module
+
+  ```drush pmu module_name```
+
+- Update entity while development (devel entity update module)
+
+  ```drush entup``` or ```drush entity-updates```
